@@ -1,0 +1,53 @@
+# Build settings
+markdown: redcarpet
+highlighter: pygments
+
+# Site settings
+title: "Home Sweet Code"
+description: > # this means to ignore newlines until "email:"
+   The blog and portfolio of Kyle Goddard, Software Developer
+
+email: kylegoddar@gmail.mail
+#blog logo
+logo: "/assets/images/kg_logo.jpg"
+# blog cover
+cover: "/assets/images/deck_chairs_processed.jpg"
+
+name: 'Kyle Goddard'
+author: 'Kyle Goddard'
+author_image: "/assets/images/kgoddard.jpg"
+
+paginate:	5
+
+url: "http://kgoddard.net" # the base hostname & protocol for your site
+baseurl: ""
+
+# social icons and sharing options
+social:
+  - icon:	twitter
+    url:	https://twitter.com/300zxkyle
+    desc: Follow me on twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+
+#  - icon:	facebook
+#    url:	https://facebook.com/???
+#    desc: Connect with me facebook
+#    share_url: //www.facebook.com/sharer.php
+#    share_title: ?t=
+#    share_link: "&amp;u="
+
+  - icon:	github
+    url:	https://github.com/KyleGoddard
+    desc:	Fork me on github
+    share_url:
+    share_title:
+    share_link:
+
+#  - icon:	google-plus
+#    url:	https://google.com/???
+#    desc:	Add me on google+
+#    share_url:
+#    share_title:
+#    share_link:
