@@ -139,7 +139,7 @@ This new function is a private function called spawnStar which returns void, mea
 
 The private keyword indicates `Access Control`, which if you are coming from Objective-C may be a little strange. Over simplified, there is no access control in Objective-C, it’s very easy to call an intended private selector from another class in Objective-C. With Swift there is `Access Control`, in this case it’s private which means that only this class can call this function and the function is hidden from other classes in the application. Here is Apple’s explanation of private access.
 
-Private access restricts the use of an entity to its own defining source file. Use private access to hide the implementation details of a specific piece of functionality.
+> Private access restricts the use of an entity to its own defining source file. Use private access to hide the implementation details of a specific piece of functionality.
 
 Next lets add the code that will indicate where to put new stars in our star field. Update your code to look like the following:
 
